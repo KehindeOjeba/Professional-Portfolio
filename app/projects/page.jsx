@@ -1,13 +1,14 @@
+'use client'
 import React from 'react'
 import { motion } from 'framer-motion'
 
 const Services = () => {
   return (
-    <div 
-    initial={{y: '100%'}}
-    animate={{y: '0%'}}
-    transition={{duration: 0.7, ease: 'easeOut'}}
-    exit={{opacity: 1}}
+    <motion.div  initial={{ opacity: 0 }}
+  animate={{
+    opacity: 1,
+    transition: { delay: 1, duration: 0.4, ease: "easeIn" },
+  }} 
     >
     <div>  
       This is my services . i have alot
@@ -30,7 +31,7 @@ const Services = () => {
     <div>
       This is my services . i have alot
     </div>
-    </div>
+</motion.div>
   )
 }
 

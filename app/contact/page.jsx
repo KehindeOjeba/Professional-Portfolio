@@ -19,12 +19,12 @@ const info = [
   {
     icon: <FaPhoneAlt/> ,
     title: 'Phone',
-    description: '(+234)81 086 9113' 
+    description: '(+234)81 0864 9113' 
   },
   {
     icon: <FaEnvelope/> ,
     title: 'Email',
-    description: 'kenn.r@gmail.com' 
+    description: 'kenny.r@gmail.com' 
   },
   {
     icon: <FaMapMarkerAlt/> ,
