@@ -13,21 +13,7 @@ const Services = () => {
     <div>  
       This is my services . i have alot
     </div>
-    <div>
-      This is my services . i have alot
-    </div>
-    <div>
-      This is my services . i have alot
-    </div>
-    <div>
-      This is my services . i have alot
-    </div>
-    <div>
-      This is my services . i have alot
-    </div>
-    <div>
-      This is my services . i have alot
-    </div>
+
     <div>
       This is my services . i have alot
     </div>
