@@ -1,3 +1,4 @@
+'use client'
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
@@ -12,7 +13,11 @@ const Home = () => {
       <div className="container mx-auto h-full xl:pl-20">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pb-5 ">
           {/* text div */}
-          <div className="text-center xl:text-left order-2 xl:order-none">
+          <motion.div  initial={{ opacity: 0 }}
+  animate={{
+    opacity: 1,
+    transition: { delay: 1, duration: 0.4, ease: "easeIn" },
+  }}  className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
               Hello, I am <br />{" "}
@@ -42,7 +47,7 @@ const Home = () => {
                 />
               </div>
             </div>
-          </div>
+          </motion.div>
           {/* Photo div */}
           <div className="order-1 xl:order-none mb-8 xl:mb-0 ">
             <PictureDiv />
