@@ -9,13 +9,18 @@ const page = () => {
     opacity: 1,
     transition: { delay: 1, duration: 0.4, ease: "easeIn" },
   }} 
+  className='p-10'
     >
-      AI Resume Analyzer and Roadmap Generator
+   <div className='text-4xl font-bold mb-5'>Case Study - AI Career Coach Analyzer </div> 
+   <p>AI-powered tool that analyzes resumes against job descriptions and provides instant, actionable feedback.</p> 
 
-      <div>📌 Overview
-
-The AI Resume Analyzer is a full-stack web application I built to streamline the job application process by helping candidates receive instant, AI-powered feedback on their resumes. The tool evaluates resumes against job descriptions, highlights strengths, identifies gaps, and provides actionable suggestions to improve candidate success rates.
+      <div>
+<section>
+  <p className='text-2xl font-bold mt-5'>Summary</p>
+  The AI Resume Analyzer is a full-stack web application I built to streamline the job application process by helping candidates receive instant, AI-powered feedback on their resumes. The tool evaluates resumes against job descriptions, highlights strengths, identifies gaps, and provides actionable suggestions to improve candidate success rates.
 This project reflects my expertise in Next.js, React, AI integrations, database design, and cloud deployment, while also showcasing my ability to build real-world, user-focused applications.
+</section>
+
 
 🎯 Problem Statement
 
