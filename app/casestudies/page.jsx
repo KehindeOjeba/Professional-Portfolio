@@ -1,6 +1,8 @@
 'use client'
 import { motion } from 'framer-motion'
 import React from 'react'
+import Hero from '../../public/assets/homepage.png'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -21,30 +23,43 @@ const page = () => {
 This project reflects my expertise in Next.js, React, AI integrations, database design, and cloud deployment, while also showcasing my ability to build real-world, user-focused applications.
 </section>
 
+<section>
+  <p className='text-2xl font-bold mt-5'>Problem Statement</p>
+  <p>Many job seekers submit resumes that are either:</p>
+<ul className='ml-5'>
 
-🎯 Problem Statement
-
-Many job seekers submit resumes that are either:
-
-Not tailored to the role.
-
-Lacking in clarity or keyword alignment.
-
-Failing to showcase their strongest achievements.
-
+<li>- Not tailored to the role.</li>
+<li>- Lacking in clarity or keyword alignment.</li>
+<li>- Failing to showcase their strongest achievements.</li>
+</ul>
 Recruiters often spend less than 7 seconds scanning a resume, which makes it critical for applicants to stand out. However, professional resume review services are often expensive, and most job seekers don’t have access to personalized, instant feedback.
+</section>
+<section className='mt-7 mb-7'>
+  <Image src={Hero} alt='' />
+</section>
+<section>
+  <p className='text-2xl font-bold mt-5'>Solution</p>
+  <p>I developed the AI Resume Analyzer to bridge this gap by providing:</p>
 
-💡 Solution
+  <ul className='ml-5'>
 
-I developed the AI Resume Analyzer to bridge this gap by providing:
+<li>- AI-Powered Feedback – Uses LLMs to analyze resumes and compare them against job descriptions.</li>
+<li>- Actionable Insights – Provides specific recommendations (e.g., Add more measurable achievements under Work Experience).</li>
+<li>- Seamless UX – A clean, intuitive interface where users can upload resumes and paste job descriptions.</li>
+<li>- Scoring System – Rates resumes based on clarity, keyword alignment, and role fit.
+</li>
+</ul>
+  </section>
 
-AI-Powered Feedback – Uses LLMs to analyze resumes and compare them against job descriptions.
 
-Scoring System – Rates resumes based on clarity, keyword alignment, and role fit.
 
-Actionable Insights – Provides specific recommendations (e.g., Add more measurable achievements under Work Experience).
 
-Seamless UX – A clean, intuitive interface where users can upload resumes and paste job descriptions.
+
+
+
+
+
+
 
 🛠️ Tech Stack
 
