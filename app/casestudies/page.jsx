@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import Hero from '../../public/assets/homepage.png'
+import Workspace from '../../public/assets/workspace.png'
 import Image from 'next/image'
 
 const page = () => {
@@ -51,16 +52,41 @@ Recruiters often spend less than 7 seconds scanning a resume, which makes it cri
 </ul>
   </section>
 
+<section>
+  <p className='text-2xl font-bold mt-5'>The Development Process</p>
+1. Research & Planning <br/>
+  -Studied common resume review frameworks (ATS, recruiter tips).<br/>
+  -Designed a minimal but professional UI for ease of use.<br/>
+
+2. Architecture Setup <br/>
+Created a scalable Next.js app with Clerk authentication.<br/>
+Integrated Drizzle ORM with Neon for structured data.<br/>
+
+3. AI Integration <br/>
+Used GPT to evaluate resume text against job descriptions.<br/>
+Designed prompt engineering for consistent, structured outputs.<br/>
+
+4. Feature Implementation<br/>
+Built upload & parsing flow for resumes.<br/>
+Integrated AI scoring and feedback.<br/>
+Added dashboard for storing results.<br/>
+
+5. Testing & Iteration<br/>
+Validated analysis with multiple resume/job description pairs.<br/>
+Refined prompts to improve accuracy and consistency.<br/>
+
+  </section>
+
+
+<section className='mt-7 mb-7'>
+  <Image src={Workspace} alt='' />
+</section>
 
 
 
 
 
-
-
-
-
-
+{/* 
 🛠️ Tech Stack
 
 Frontend: Next.js 14, React, Tailwind CSS
@@ -155,7 +181,7 @@ Strengthened my full-stack development skills with Next.js, Drizzle ORM, and Neo
 
 Gained deeper experience in AI prompt engineering and workflow orchestration.
 
-Built a real-world application that combines technical complexity with practical user value.
+Built a real-world application that combines technical complexity with practical user value. */}
 </div>
     </motion.div>
   )
