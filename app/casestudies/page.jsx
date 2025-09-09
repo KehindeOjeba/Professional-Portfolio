@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import Hero from '../../public/assets/homepage.png'
 import Workspace from '../../public/assets/workspace.png'
+import Phone from '../../public/assets/phone.png'
 import Image from 'next/image'
 
 const page = () => {
@@ -27,12 +28,12 @@ This project reflects my expertise in Next.js, React, AI integrations, database 
 <section>
   <p className='text-2xl font-bold mt-5'>Problem Statement</p>
   <p>Many job seekers submit resumes that are either:</p>
-<ul className='ml-5'>
+<div className='ml-5'>
 
-<li>- Not tailored to the role.</li>
-<li>- Lacking in clarity or keyword alignment.</li>
-<li>- Failing to showcase their strongest achievements.</li>
-</ul>
+<li> Not tailored to the role.</li>
+<li> Lacking in clarity or keyword alignment.</li>
+<li> Failing to showcase their strongest achievements.</li>
+</div>
 Recruiters often spend less than 7 seconds scanning a resume, which makes it critical for applicants to stand out. However, professional resume review services are often expensive, and most job seekers don’t have access to personalized, instant feedback.
 </section>
 <section className='mt-7 mb-7'>
@@ -42,38 +43,38 @@ Recruiters often spend less than 7 seconds scanning a resume, which makes it cri
   <p className='text-2xl font-bold mt-5'>Solution</p>
   <p>I developed the AI Resume Analyzer to bridge this gap by providing:</p>
 
-  <ul className='ml-5'>
+  <div className='ml-5'>
 
-<li>- AI-Powered Feedback – Uses LLMs to analyze resumes and compare them against job descriptions.</li>
-<li>- Actionable Insights – Provides specific recommendations (e.g., Add more measurable achievements under Work Experience).</li>
-<li>- Seamless UX – A clean, intuitive interface where users can upload resumes and paste job descriptions.</li>
-<li>- Scoring System – Rates resumes based on clarity, keyword alignment, and role fit.
+<li> AI-Powered Feedback – Uses LLMs to analyze resumes and compare them against job descriptions.</li>
+<li> Actionable Insights – Provides specific recommendations (e.g., Add more measurable achievements under Work Experience).</li>
+<li> Seamless UX – A clean, intuitive interface where users can upload resumes and paste job descriptions.</li>
+<li> Scoring System – Rates resumes based on clarity, keyword alignment, and role fit.
 </li>
-</ul>
+</div>
   </section>
 
 <section>
   <p className='text-2xl font-bold mt-5'>The Development Process</p>
-1. Research & Planning <br/>
-  -Studied common resume review frameworks (ATS, recruiter tips).<br/>
-  -Designed a minimal but professional UI for ease of use.<br/>
+1. Research & Planning 
+  <li>Studied common resume review frameworks (ATS, recruiter tips).</li>
+  <li>Designed a minimal but professional UI for ease of use.</li>
 
-2. Architecture Setup <br/>
-Created a scalable Next.js app with Clerk authentication.<br/>
-Integrated Drizzle ORM with Neon for structured data.<br/>
+2. Architecture Setup 
+<li>Created a scalable Next.js app with Clerk authentication.</li>
+<li>Integrated Drizzle ORM with Neon for structured data.</li>
 
-3. AI Integration <br/>
-Used GPT to evaluate resume text against job descriptions.<br/>
-Designed prompt engineering for consistent, structured outputs.<br/>
+3. AI Integration 
+<li>Used GPT to evaluate resume text against job descriptions.</li>
+<li>Designed prompt engineering for consistent, structured outputs.</li>
 
-4. Feature Implementation<br/>
-Built upload & parsing flow for resumes.<br/>
-Integrated AI scoring and feedback.<br/>
-Added dashboard for storing results.<br/>
+4. Feature Implementation
+<li>Built upload & parsing flow for resumes. </li>
+<li>Integrated AI scoring and feedback.</li>
+<li>Added dashboard for storing results.</li>
 
-5. Testing & Iteration<br/>
-Validated analysis with multiple resume/job description pairs.<br/>
-Refined prompts to improve accuracy and consistency.<br/>
+5. Testing & Iteration
+<li>Validated analysis with multiple resume/job description pairs.</li>
+<li>Refined prompts to improve accuracy and consistency.</li>
 
   </section>
 
@@ -81,6 +82,41 @@ Refined prompts to improve accuracy and consistency.<br/>
 <section className='mt-7 mb-7'>
   <Image src={Workspace} alt='' />
 </section>
+
+<section>
+  <p className='text-2xl font-bold mt-5'>Impact & Results</p>
+
+  <li>Delivered instant resume analysis in under 10 seconds.</li>
+  <li>Increased user confidence by providing specific, actionable feedback instead of generic advice.</li>
+  <li>Demonstrated scalability for both individual job seekers and potential enterprise HR tools.</li>
+  </section>
+
+
+<section className='mt-7 mb-7'>
+  <Image src={Phone} alt='' />
+</section>
+
+<section>
+  <p className='text-2xl font-bold mt-5'>Key Takeaways</p>
+  <li>Strengthened my full-stack development skills with Next.js, Drizzle ORM, and Neon.</li>
+  <li>Gained deeper experience in AI prompt engineering and workflow orchestration.</li>
+  <li>Built a real-world application that combines technical complexity with practical user value.</li>
+</section>
+
+
+
+
+
+
+
+
+Key Takeaways
+
+Strengthened my full-stack development skills with Next.js, Drizzle ORM, and Neon.
+
+Gained deeper experience in AI prompt engineering and workflow orchestration.
+
+Built a real-world application that combines technical complexity with practical user value.
 
 
 
