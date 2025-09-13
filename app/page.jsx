@@ -31,6 +31,7 @@ const Home = () => {
             {/* button */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               {" "}
+              <a href='/KEHINDE_OJEBA_FRONTEND_DEVELOPER.pdf' download='KEHINDE_OJEBA_FRONTEND_DEVELOPER.pdf'>
               <Button
                 variant="outline"
                 size="lg"
@@ -39,11 +40,12 @@ const Home = () => {
                 <span> Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
+              </a> 
               {/* socials */}
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
-                  iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent dark:text-accent text-base hover:bg-accent hover:text-primary dark:text-accent hover:transition-all duration-500"
+                  iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent dark:text-accent text-base hover:bg-black hover:text-white dark:text-accent hover:transition-all duration-500"
                 />
               </div>
             </div>
