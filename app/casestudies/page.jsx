@@ -13,7 +13,7 @@ const page = () => {
     opacity: 1,
     transition: { delay: 1, duration: 0.4, ease: "easeIn" },
   }} 
-  className='p-10'
+  className='p-10 dark:bg-light dark:text-dark'
     >
    <div className='text-4xl font-bold mb-5'>Case Study - AI Career Coach Analyzer </div> 
    <p>AI-powered tool that analyzes resumes against job descriptions and provides instant, actionable feedback.</p> 
@@ -31,8 +31,8 @@ This project reflects my expertise in Next.js, React, AI integrations, database 
 <div className='ml-5'>
 
 <li> Not tailored to the role.</li>
-<li> Lacking in clarity or keyword alignment.</li>
-<li> Failing to showcase their strongest achievements.</li>
+<li> Lacking in clarity or keyword alignment</li>
+<li> Failing to showcase their strongest achievements</li>
 </div>
 Recruiters often spend less than 7 seconds scanning a resume, which makes it critical for applicants to stand out. However, professional resume review services are often expensive, and most job seekers don’t have access to personalized, instant feedback.
 </section>

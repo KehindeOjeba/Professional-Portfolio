@@ -1,16 +1,25 @@
 'use client'
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { MoonIcon, SunIcon } from "../helpers/Icon";
+// import { MoonIcon, SunIcon } from "../helpers/Icon";
 import { useTheme } from "next-themes";
-
 //component
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 
 
 const Header = () => {
+  const SunIcon = dynamic(
+  () => import("../helpers/Icon").then((mod) => mod.SunIcon),
+  { ssr: false }
+);
+const MoonIcon = dynamic(
+  () => import("../helpers/Icon").then((mod) => mod.MoonIcon),
+  { ssr: false }
+);
+
 //const [mounted, setMounted] = useState(false);
 const {systemTheme, theme, setTheme} = useTheme();
 
