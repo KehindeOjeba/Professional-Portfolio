@@ -13,7 +13,7 @@ const page = () => {
     opacity: 1,
     transition: { delay: 1, duration: 0.4, ease: "easeIn" },
   }} 
-  className='p-10'
+  className='p-10 dark:bg-light dark:text-dark'
     >
    <div className='text-4xl font-bold mb-5'>Case Study - AI Career Coach Analyzer </div> 
    <p>AI-powered tool that analyzes resumes against job descriptions and provides instant, actionable feedback.</p> 

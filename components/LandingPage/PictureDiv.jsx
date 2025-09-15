@@ -30,7 +30,8 @@ const PictureDiv = () => {
           className="w-[298px]  h-[349px] xl:w-[498px] xl:h-[498px]"
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/picture5.png"
+            // src="/assets/photo.png"
             priority
             quality={100}
             fill
@@ -41,7 +42,7 @@ const PictureDiv = () => {
 
         {/* animate */}
         {/* <motion.svg
-          className="w-[300px] xl:w-[506px] h-full xl:h[506px]"
+          //className="w-[300px] xl:w-[506px] h-full xl:h[506px]"
           fill="transparent"
           viewBox="0 0 600 600"
           xmlns="http://www.w3.org/2000/svg"
