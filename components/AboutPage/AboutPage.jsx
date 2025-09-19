@@ -7,6 +7,7 @@ import {
   SiTailwindcss,
   SiPostgresql,
   SiJavascript,
+  SiTypescript
 } from "react-icons/si";
 import {
   Tooltip,
@@ -55,6 +56,10 @@ const skills = {
       icon: <FaGithub />,
       name: "github",
     },
+    {
+      icon: <SiTypescript />,
+      name: "typescript",
+    },
   ],
 };
 
@@ -94,28 +99,9 @@ const experience = {
     {
       company: "El-Prince Media",
       position: "Freelance Frontend Developer",
-      duration: "2022",
+      duration: "2022-2023",
     },
-    {
-      company: "El-Prince Media",
-      position: "Freelance Frontend Developer",
-      duration: "2022",
-    },
-    {
-      company: "El-Prince Media",
-      position: "Freelance Frontend Developer",
-      duration: "2022",
-    },
-    {
-      company: "El-Prince Media",
-      position: "Freelance Frontend Developer",
-      duration: "2022",
-    },
-    {
-      company: "El-Prince Media",
-      position: "Freelance Frontend Developer",
-      duration: "2022",
-    },
+  
   ],
 };
 
