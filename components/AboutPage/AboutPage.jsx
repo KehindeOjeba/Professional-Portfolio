@@ -120,6 +120,11 @@ const education = {
       degree: "React - The Complete Guide",
       duration: "2021",
     },
+    {
+      institution: "Coursera",
+      degree: "Web development",
+      duration: "2022",
+    },
   ],
 };
 
