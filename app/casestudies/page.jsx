@@ -1,7 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import React from 'react'
-import Hero from '../../public/assets/homepage.png'
+import Hero from '../../public/assets/new.png'
 import Workspace from '../../public/assets/workspace.png'
 import Phone from '../../public/assets/phone.png'
 import Image from 'next/image'
