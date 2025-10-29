@@ -10,7 +10,7 @@ const page = () => {
     <TabsTrigger value="password">Password</TabsTrigger>
   </TabsList>
   <TabsContent value="resume"> <ResumeAnalyzer/></TabsContent>
-  <TabsContent value="password">Change your password here.</TabsContent>
+  <TabsContent value="password">Hello.</TabsContent>
 </Tabs>
   )
 }
