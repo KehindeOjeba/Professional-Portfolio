@@ -39,9 +39,9 @@ const page = () => {
       <p className='text-white/60'>Drop a meessage and I will be sure to respond😊</p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-        <Input type='firstname' placeholder='First Name'/>
+        {/* <Input type='firstname' placeholder='First Name'/>
         <Input type='lastname' placeholder='Last Name'/>
-        <Input type='email' placeholder='Email Address'/>
+        <Input type='email' placeholder='Email Address'/> */}
         <Input type='phone' placeholder='Phone Number'/>
       </div>
       <Textarea className='h-[100px]' placeholder='Type your message here'></Textarea>
